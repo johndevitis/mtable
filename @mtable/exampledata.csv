@@ -1,0 +1,22 @@
+crio,fileid,dof_type,dof_ind,chan,measurement_type,x,y,z
+ref1,0,time,0,0,time,0,0,0
+ref1,0,fixed,4,1,output,30,33.4,0
+ref1,0,fixed,5,2,output,60,33.4,0
+ref1,0,fixed,6,3,output,90,33.4,0
+ref2,0,time,0,0,time,0,0,0
+ref2,0,fixed,1,1,output,30,2,0
+ref2,0,fixed,2,2,output,60,2,0
+ref2,0,fixed,3,3,output,90,2,0
+trailer,0,time,0,0,time,0,0,0
+trailer,1,roving,13,2 3 4; 5,input; output,30,7.5,0
+trailer,2,roving,14,2 3 4; 5,input; output,60,7.5,0
+trailer,3,roving,15,2 3 4; 5,input; output,90,7.5,0
+trailer,4,roving,16,2 3 4; 5,input; output,30,12.5,0
+trailer,5,roving,17,2 3 4; 5,input; output,60,12.5,0
+trailer,6,roving,18,2 3 4; 5,input; output,90,12.5,0
+trailer,7,roving,19,2 3 4; 5,input; output,30,22.73,0
+trailer,8,roving,20,2 3 4; 5,input; output,60,22.73,0
+trailer,9,roving,21,2 3 4; 5,input; output,90,22.73,0
+trailer,10,roving,22,2 3 4; 5,input; output,30,28.4,0
+trailer,11,roving,23,2 3 4; 5,input; output,60,28.4,0
+trailer,12,roving,24,2 3 4; 5,input; output,90,28.4,0
