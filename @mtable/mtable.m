@@ -5,8 +5,9 @@ classdef mtable < handle
 
 	%% object properties -- %%
 	properties
-        path % path to table file (on disk -> windows host)
-        name % name of table file with extension
+%         path % path to table file (on disk -> windows host)
+%         name % name of table file with extension
+%         sheet % optional sheet (not required for csv)
         desc % optional description of table       
         table % raw table data (from csv file)
 	end
@@ -22,7 +23,7 @@ classdef mtable < handle
 	%% dynamic methods-- %%
 	methods
 		%% constructor -- %%
-		function self = mtable()
+		function self = mtable()            
         end       
         
         %% ordinary methods
